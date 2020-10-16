@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Primer Parcial</string>
+    <string name="app_name2">Modificar</string>
+    <string name="nombreProducto">Nombre Producto</string>
+    <string name="cantidadText">Cantidad: </string>
+    <string name="precioText">Precio: </string>
+    <string name="editar">Editar</string>
+
+</resources>
