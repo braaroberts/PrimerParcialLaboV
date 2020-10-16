@@ -17,15 +17,12 @@ public class EditView {
     }
 
     public  void cargarModelo(){
-
        nombre  = this.activity.findViewById(R.id.nombreProductoEdit);
-        cantidad = this.activity.findViewById(R.id.cantidadEdit);
-         precio = this.activity.findViewById(R.id.precioEdit);
-        nombre.setText( modelo.getNombreProducto());
-
-        cantidad.setText(modelo.getCantidad().toString());
-        precio.setText(modelo.getPrecio().toString());
-
+       cantidad = this.activity.findViewById(R.id.cantidadEdit);
+       precio = this.activity.findViewById(R.id.precioEdit);
+       nombre.setText( modelo.getNombreProducto());
+       cantidad.setText(modelo.getCantidad().toString());
+       precio.setText(modelo.getPrecio().toString());
     }
 
     public void actualizarModelo(){
