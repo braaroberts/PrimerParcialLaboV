@@ -25,7 +25,7 @@ public class EditActivity extends AppCompatActivity {
         Log.d("Seguimiento","id:"+indice );
 
         editModel =  MainActivity.productos.get(indice);
-        editView = new EditView(this,editModel,indice);
+        editView = new EditView(this,editModel);
         editController= new EditController(editView);
 
         editController.setListener(this);

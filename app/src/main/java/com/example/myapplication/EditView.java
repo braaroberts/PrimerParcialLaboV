@@ -1,10 +1,7 @@
 package com.example.myapplication;
 
-import android.util.Log;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
+
 
 public class EditView {
     EditActivity activity;
@@ -14,7 +11,7 @@ public class EditView {
     EditText cantidad;
     EditText precio;
 
-    public EditView(EditActivity activity, ProductoModel modelo, Integer indice){
+    public EditView(EditActivity activity, ProductoModel modelo){
         this.activity = activity;
         this.modelo = modelo;
     }
